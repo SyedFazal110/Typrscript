@@ -1,21 +1,21 @@
 // let car:string = "BMW"
 
-// type data = {
-//     firstName : string;
-//     age : number;
-//     email : string;
-// }
-// type data = {
-//     lastname : string
-// }
+type data = {
+    firstName : string;
+    age : number;
+    email : string;
+}
 
-// let form:data = {
-//     firstName : "Fazal",
-//     age : 22,
-//     email : "fazalali@gmail.com"
-// }
 
+var form:data = {
+    firstName : "Fazal",
+    age : 22,
+    email : "fazalali@gmail.com"
+}
+console.log(form)
 
 
 
-type data = (string | number)[]
+
+
+
